@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aula 06</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Forms</legend>
+      <br>
+      <!-- action para onde vão os dados preenchidos -->
+    <form action="https://ios.org.br/" method="get">
+      <label>Nome</label>
+      <input type="text" required />
+      <input type="submit" />
+      <br />
+      <br />  
+      <label>Número</label>
+      <input type="number" />
+      <input type="submit" />
+      <br />
+      <br />
+      <label>CEP</label>
+      <input type="number" />
+      <input type="submit" />
+      <br />
+      <br />
+    </fieldset> 
+      <!-- Radio -->
+      <h4>Escolha uma Musica</h4>
+      <input type="radio" name="musica" />
+      <label for="">Novo Balanço</label>
+      <br />
+      <input type="radio" name="musica" />
+      <label for="">Engana dizendo que Ama</label>
+      <br />
+      <input type="radio" name="musica" />
+      <label for="">Hora errada</label>
+      <br />
+      <input type="radio" name="musica" />
+      <label for="">Detalhes</label>
+      <!-- Checkbox -->
+      <h4>Escolha os sabores</h4>
+      <input type="checkbox" />
+      <label for="">Uva</label>
+      <br />
+      <input type="checkbox" />
+      <label for="">Maça</label>
+      <br />
+      <input type="checkbox" />
+      <label for="">Laranja</label>
+      <br />
+      <input type="checkbox" />
+      <label for="">Morango</label>
+      <br />
+      <br />
+      <!-- Range -->
+      <label for="">0</label>
+      <input type="range" />
+      <label for="">10</label>
+      <br /><br />
+      <!-- Select -->
+      <label>Sorvete</label>
+      <select name="" id="">
+        <option value="Seleione">Selecione</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Creme">Creme</option>
+        <option value="Morango">Morango</option>
+        <option value="Flocos">Flocos</option>
+        <option value="Napolitano.">Napolitano</option>
+      </select>
+      <br /><br />
+      <!-- Datalist -->
+      <label for="">Filmes</label>
+      <input type="text" list="Filmes" />
+      <datalist id="Filmes">
+        <option value="Vingadores Ultimato">Vingadores Ultimato</option>
+        <option value="Barbie">Barbie</option>
+        <option value="Transformers">Transformers</option>
+        <option value="Aterrorizante">Aterrorizante</option>
+        <option value="Flash">Flash</option>
+      </datalist>
+      <br><br>
+      <!-- TextArea -->
+
+      <fieldset>
+        <legend>Fale sobre seu Filme favorito </legend>
+        <br>
+        <label for="">Filmes</label>
+        <input type="text" />
+        <br><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </fieldset>
+      <br>  
+      <fieldset>
+        <legend>Fale sobre seu Show preferido</legend>
+        <br>
+        <label for="">Show</label>
+        <input type="text" name="" id="" />
+        <br><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>
