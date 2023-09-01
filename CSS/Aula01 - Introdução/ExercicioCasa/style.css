@@ -1,21 +1,16 @@
 
-body{
+body {
     background-color: rgb(102, 79, 79);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-p{
+p {
     color: blueviolet;
 }
-
-footer{
+footer {
     background-color: rgb(255, 255, 255);
-     color: rgb(0, 0, 0);
-
+    color: rgb(0, 0, 0);
 }
-
-h2{
-
+h2 {
     color: rgb(0, 0, 0);
 }
