@@ -6,5 +6,9 @@ body {
 p {
     background-color: rgb(219, 11, 219);
     font-size: 30px;
+    text-shadow: 2px 1px black;
 
 }
+
+/* box-shadow: 3px 3px 3px #48789f; Sombreamento */
+/* font-weight: 700; Negrito */

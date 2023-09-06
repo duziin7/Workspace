@@ -1,0 +1,21 @@
+/* Tag Pai */
+*{
+    background-color: cadetblue;
+}
+/* Classe*/
+.Conjunto1{
+    color: aqua;
+} 
+
+.Corh1{
+    color: yellow;
+}
+
+/* Id */
+#corp{
+    color: brown0;
+}
+
+section p {
+    color: white;
+}
