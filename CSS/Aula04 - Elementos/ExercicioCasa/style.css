@@ -1,0 +1,38 @@
+/* Estilos gerais para toda a página */
+body {
+    background-color: #eefaa8;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #649ea7;
+    text-align: center;
+    border: 1px solid #000000;
+    border-style: solid;
+}
+
+/* Estilos para a tabela */
+table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Estilos para as células do cabeçalho da tabela */
+th {
+    background-color: #8fbfb9;
+    font-weight: bold;
+    border: 1px solid #000000;
+    border-style: solid;
+    padding: 8px;
+}
+
+/* Estilos para as células do corpo da tabela */
+td {
+    border: 1px solid #000000;
+    border-style: solid;
+    padding: 8px;
+}
