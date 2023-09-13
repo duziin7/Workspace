@@ -1,0 +1,40 @@
+body {
+    background-color: #f594f5;
+}
+
+div {
+    border: solid 1px #000000; /* Borda da div tipo e etc..*/         
+    margin-top: 30px;
+    margin-right: 20px; /*Borda direita */
+    margin-left: 20px; /* Esquerda */
+    margin-bottom: 30px;
+    /* padding: 50px; */
+    /* padding para separar a div do parágrafo */
+}
+
+    /* Atribui o mesmo valora todos */
+    /* margin: 50px; */
+
+
+    /* Individual aplicando em todos */
+    /* margin: 30px 25px 10px 31px; */
+    /* Primeiro valor: top, right, bottom, left */
+
+
+    /* margin (top e bottom) (right left) */
+    /* margin: 25px 50px; */
+    /* Lembrar modelo cruz cima baixo e lados */
+
+
+    /* margin (top) (right bottom) (left) */
+    /* margin: 25px 50px 75px; */
+
+p {
+    border: solid 1px white;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /* margin: 30px; */
+    /* margin para separar a div do parágrafo */
+}

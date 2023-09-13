@@ -1,0 +1,33 @@
+body {
+    background-color: #eefaa8;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    background-color: #649ea7;
+    text-align: center;
+    border: 1px solid #000000;
+    border-style: solid;
+}
+
+table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #8fbfb9;
+    font-weight: bold;
+    border: 1px solid #000000;
+    border-style: solid;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #000000;
+    border-style: solid;
+    padding: 8px;
+}
