@@ -17,7 +17,7 @@ header {
 /* Estilos para a tabela */
 table {
     border: 1px solid #000000;
-    border-collapse: collapse;
+    border-style: solid;
     width: 100%;
 }
 
@@ -25,14 +25,4 @@ table {
 th {
     background-color: #8fbfb9;
     font-weight: bold;
-    border: 1px solid #000000;
-    border-style: solid;
-    padding: 8px;
-}
-
-/* Estilos para as células do corpo da tabela */
-td {
-    border: 1px solid #000000;
-    border-style: solid;
-    padding: 8px;
 }
