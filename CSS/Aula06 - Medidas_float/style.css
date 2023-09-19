@@ -1,0 +1,19 @@
+
+*html{
+    font-size: 100px;
+}
+
+.pai{
+    font-size: 20px;
+    background-color: aquamarine;
+    width: 400px;
+    height: 9000px;
+}
+
+/* em multiplica */
+p{
+    font-size: 2rem;
+    background-color: rgb(179, 29, 29);
+}
+
+/* ViewPort oque é: */
