@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    /*flexível*/
+    /* flex-direction: row-reverse; / Direção */
+    /* flex-wrap: wrap; / exibidos em múltiplas linhas */
+    /* justify-content: space-between; */
+    border: 1px solid black;
+    height: 400px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.itens {
+    border: 1px solid blueviolet
+}
