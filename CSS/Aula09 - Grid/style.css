@@ -1,42 +1,50 @@
+@charset "UTF-8";
 #container{
     display: grid;
     /* grid-template-columns: 50px 50px 50px 50px; */
     /* grid-template-rows: 20px 20px; */
     /* 100% */
-    grid-template-columns: repeat(4, 1fr); /*1% da tela, exemplo 4 colunas - 25px de cada coluna ao todo 100%*/
-    grid-template-rows: auto;
-    grid-template-areas: "div7 div7 div7 div7" "div2 div2 . . " "div1 div1 div1 div1";
+    /* grid-template-columns: repeat(4, 1fr); 1% da tela, exemplo 4 colunas - 25px de cada coluna ao todo 100% */
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px ;
+    height: 100vh;
+    /* column-gap: 0px;
+    row-gap: 20px */
+    /* justify-items: center;
+    align-items: center; */
+    /* justify-content: space-evenly; Move as cédulas e os valores */
+    align-content: space-between;
+    /* grid-template-areas: "div7 div7 div7 div7" "div2 div2 . div3" "div1 div1 div1 div1"; */
 }
 
 .itens-1 {
-    grid-area: div1;
+    /* grid-area: div1; */
 }
 
 .itens-2 {
-    grid-area: div2;
+    /* grid-area: div2; */
 }
 
 .itens-3 {
-
-    grid-area: div3;
+    /* grid-area: div3; */
 }
 
 .itens-4 {
-    grid-area: div4;
+    /* grid-area: div4; */
 }
 
 .itens-5 {
-    grid-area: div5;
+    /* grid-area: div5; */
 }
 
 .itens-6 {
-    grid-area: div6;
+    /* grid-area: div6; */
 }
 
 .itens-7 {
-    grid-area: div7;
+    /* grid-area: div7; */
 }
 
 .itens-8 {
-    grid-area: div8;
+    /* grid-area: div8; */
 }

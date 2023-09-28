@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas: "itens1 itens1 itens2 itens2" "itens3 itens3 itens3 itens3" "itens4 itens4 itens4 itens4" ". itens5 itens5 ." "itens6 itens6 itens6 itens6" "itens7 itens7 itens8 itens9";
+}
+
+.itens-1 {
+    grid-area: itens1;
+    border: 1px solid black;
+}
+
+.itens-2 {
+    grid-area: itens2;
+    border: 1px solid black;
+}
+
+.itens-3 {
+    grid-area: itens3;
+    border: 1px solid black;
+}
+
+.itens-4 {
+    grid-area: itens4;
+    border: 1px solid black;
+}
+
+.itens-5 {
+    grid-area: itens5;
+    border: 1px solid black;
+}
+
+.itens-6 {
+    grid-area: itens6;
+    border: 1px solid black;
+}
+
+.itens-7 {
+    grid-area: itens7;
+    border: 1px solid black;
+}
+
+.itens-8 {
+    grid-area: itens8;
+    border: 1px solid black;
+}
+
+.itens-9 {
+    grid-area: itens9;
+    border: 1px solid black;
+}
