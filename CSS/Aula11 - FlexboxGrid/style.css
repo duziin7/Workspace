@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*assumir valor padrao da tela sem estourar*/
+}
+
+body {
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    background: #f9f9f9;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.main-header {
+    height: 55vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    /*um abaixo do outro*/
+    align-items: center;
+    /*Centraliza na Vertical*/
+    justify-content: center;
+    /*Centraliza na horizoltal*/
+    text-align: center;
+}
+
+.main-header h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 1.2rem;
+    /*espaçamento na vertical na linha*/
+}
+
+
+.main-header h1 span {
+    color: #b50d10;
+}
+
+.main-header p {
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    /*impede que as imagens ultrapassaem o tamanho do container*/
+    padding: 0 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    /*espaçamento entre itens tanto nas linhas como colunas*/
+    background: #f1f1f1;
+    margin-bottom: 2rem;
+    /*html - rem*/
+    /*em - olha o tamanho do pai mais proximo*/
+}
+
+card h3 {
+    margin-bottom: 2rem;
+}
+
+.card img {
+    height: 400px;
+}
+
+.card>div {
+    padding: 2rem;
+}
+
+.card:nth-child(even) img {
+    order: 2;  
+}
+
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+   }
+
+   .btn:hover { /*passa o mouse em cima*/
+    opacity: 0.8; /*opaco*/
+    transform: scale(1.1);
+   }
