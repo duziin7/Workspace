@@ -82,3 +82,64 @@ console.log("five" * 2)
 console.clear()
 
 // Visualizar slide 22 sobre Hierarquia
+
+// Incremento 
+
+var incremento = 2 
+// incremento = incremento = 6
+// incremento++ // incrementa 1 
+incremento+=5
+
+console.log(incremento)
+
+// Módulo(Resto da divisão)
+
+var imparPar = 3%2 // Resto da divisão exemplo de 2 / 2 - resto 0  
+
+console.log("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur eveniet dolorem ab, recusandae magnam obcaecati laboriosam eum deserunt totam autem nam exercitationem at sunt quam aliquam vero reprehenderit excepturi." + imparPar)
+console.clear()
+
+// Comparação(Relacionais)
+
+var comparacao = 2 > 3 // 2 não é maior que 3 - false 
+var comparacao2 = 5 > 3 // true
+
+console.log(comparacao)
+console.log(comparacao2)
+console.clear()
+
+var sinaisIguais = 2 == 3 // == Se tem o mesmo valor (Valores iguais) 
+
+console.log(sinaisIguais)
+
+var sinaisIguais2 = 3 === 3 // === Se tem o mesmo valor e tipo (Valores e Tipos iguais)
+var sinaisIguais3 = 8 === 10 // Se qualquer um estivar errado retorna false
+
+console.log(sinaisIguais2)
+console.log(sinaisIguais3)
+console.clear()
+
+// Diferente
+
+var sinaisDiferente = 3 != 3 // Se ele é diferente como no caso não é recebe false
+
+console.log(sinaisDiferente)
+console.clear()
+
+// Menor ou igual 
+
+var menorIgual = 4 <= 5; // Mesmo raciocino dos Relacionais(Linha 116) sequalquer um estiver verdadeiro ira retornar true 
+
+console.log(menorIgual);
+console.clear()
+
+//  Operadores unários 
+
+var unarios = 4; // Mostra o tipo se é numero ou String 
+var unarios2 = "eu sou lindo";
+
+console.log(typeof unarios)
+console.log(typeof unarios2)
+
+
+
