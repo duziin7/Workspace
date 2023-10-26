@@ -1,6 +1,8 @@
-let contador = 10
-let tabuada = 2
+let contador = 0
+let numeroMultiplica = 7
 
-while(contador ){
-
+while(contador < 10){
+    contador++;
+    // console.log(contador * numeroMultiplica )
+    console.log(contador + " x " + numeroMultiplica + " = " + contador * numeroMultiplica)
 }
