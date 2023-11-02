@@ -3,7 +3,7 @@
 let contador = 1;
 
 while(contador <= 10){ // true 
-    console.log(`O número do contador é ${contador}`) // ou ("O número do contador é " + contador)
+    console.log(`O número do contador é ${contador}`) // <== Template String / ou ("O número do contador é " + contador)
     contador ++; // incremento
 }
 
