@@ -1,4 +1,4 @@
-// Métodos do DOM
+// Métodos do DOM - interface de programação multiplataforma e independente de linguagem // DOM fornece uma representação estruturada do documento como uma árvore, onde os elementos do documento são como nós das ramificações da árvore. 
 
 let botao = document.createElement('BUTTON'); // Cria um novo elemento com um nome específico //  Esse nome de pode ser com letras maiúsculas ou minúsculas.
 let corpo = document.body;
