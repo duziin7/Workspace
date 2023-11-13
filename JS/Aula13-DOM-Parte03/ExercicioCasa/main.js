@@ -8,7 +8,7 @@ botao.style.backgroundColor = '#BFBFBF'
 
 botao.addEventListener("click", () => {
     let imagem = document.createElement("img");
-    imagem.src = "img/UA.jpg";
+    imagem.src = "IMG/download.png";
     imagem.alt = "The Umbrella Academy";
     document.body.appendChild(imagem);
 });
