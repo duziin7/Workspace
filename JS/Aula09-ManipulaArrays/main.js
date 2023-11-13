@@ -27,7 +27,7 @@ console.log(newArray)
 console.clear();
 const idades = [32, 33, 16, 40];
 let filtroIdade = idades.filter((idade) => { // "idade" é parâmetro "primeiro parâmetro são para os valores" segundo é a posição // Arrow function dentro do método, igual a linha 3 a 10 
-return idade >= 18; // Retorna apenas mair que 18
+return idade >= 18; // Retorna apenas maior que 18
 });
 console.log(filtroIdade)
 
