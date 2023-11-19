@@ -1,14 +1,10 @@
-let botao = document.getElementById("B_01");
+function calcularNovoSalario() {
 
-botao.style.border = 'solid 2px #D9BC66';
-botao.style.padding = '.5rem';
-botao.style.margin = '.7rem';
-botao.style.backgroundColor = '#BFBFBF'
+    var salarioAtual = parseFloat(document.getElementById('salarioAtual').value);
 
+    var aumento = salarioAtual * 0.17;
 
-botao.addEventListener("click", () => {
-    let imagem = document.createElement("img");
-    imagem.src = "img/UA.jpg";
-    imagem.alt = "The Umbrella Academy";
-    document.body.appendChild(imagem);
-});
+    var novoSalario = salarioAtual + aumento + 215;
+
+    document.getElementById('resultado').innerText = 'Novo salário: R$ ' + novoSalario.toFixed(2);
+}

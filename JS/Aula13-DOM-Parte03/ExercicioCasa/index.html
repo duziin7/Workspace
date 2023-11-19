@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio - JS</title>
-    <style> body { background-color: rgb(122, 189, 36); } </style>
+    <title>Calculadora de Salário</title>
+    <script defer src="script.js"></script>
 </head>
 <body>
-    
 
+    <label for="salarioAtual">Salário Atual:</label>
+    <input type="number" id="salarioAtual" placeholder="Informe o salário atual">
 
+    <button onclick="calcularNovoSalario()">Calcular Novo Salário</button>
+
+    <p id="resultado"></p>
 
     <script src="main.js"></script>
 </body>
