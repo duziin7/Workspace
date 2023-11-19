@@ -1,0 +1,38 @@
+React:
+
+Biblioteca JavaScript para construir interfaces de usuário.
+Desenvolvida pelo Facebook.
+Permite criar componentes reutilizáveis para o desenvolvimento eficiente de interfaces.
+Documentação oficial do React
+
+===============================================================================
+
+Diferença de biblioteca e Framework:
+Biblioteca: Conjunto de funções reutilizáveis.
+Framework: Estrutura mais ampla que define a estrutura geral de um aplicativo.
+Fonte: Stack Overflow
+
+=====================================================================
+
+Props:
+Abreviação de "propriedades" no React.
+Objetos que transportam dados de um componente pai para um filho.
+Usadas para comunicação entre componentes.
+Documentação oficial sobre Props no React
+
+=========================================================================
+
+Hooks:
+Funções especiais do React para adicionar características a componentes funcionais.
+Exemplos: useState para gerenciar estado, useEffect para efeitos colaterais.
+Introduzidos para tornar os componentes funcionais mais poderosos.
+Documentação oficial sobre Hooks no React
+
+=======================================================================
+
+Componentes:
+Partes reutilizáveis e independentes da interface do usuário em React.
+Podem ser funções ou classes JavaScript.
+Permitem a criação de interfaces complexas por meio de aninhamento.
+Documentação oficial sobre Componentes no React
+==========================================================
